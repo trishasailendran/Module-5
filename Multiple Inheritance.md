@@ -32,14 +32,34 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```
+#Reg.no 212222060280
+#Name Trisha S
+
+class value():
+    def __init__(self,name,no,a,b,c,d):
+        self.name=name
+        self.no=no
+        self.a=a
+        self.b=b
+        self.c=c
+        self.d=d
+    def display(self):
+        print("Name: ",self.name,"Rollno: ",self.no,"Total Marks out of 400: ",self.a+self.b+self.c+self.d)
+name=input()
+no=int(input())
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+s=value(name,no,a,b,c,d)
+s.display()
 
 ```
 
 ### OUTPUT
+<img width="1177" height="334" alt="image" src="https://github.com/user-attachments/assets/ee6234ed-4dfc-467c-87e5-2cc2ce480aec" />
 
 
 ### RESULT
 
-
-
-
+Thus the program that demonstrates to get the name,mark and id of the student has been implemented and executed successfully.
